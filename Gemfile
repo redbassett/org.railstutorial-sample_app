@@ -56,3 +56,6 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
+
+# Added to fix issue in newer Ruby version requiring minitest. (https://github.com/rspec/rspec-rails/pull/772)
+gem 'minitest'
