@@ -45,7 +45,7 @@ group :development, :test do
 	gem 'spork-rails', '4.0.0'
 	gem 'guard-spork', '1.5.0'
 	gem 'childprocess', '0.3.6'
-	gem 'rb-fsevent', '0.9.0'
+	gem 'rb-fsevent'
 end
 
 group :test do
@@ -62,6 +62,9 @@ group :production do
 	gem 'pg', '0.15.1'
 	gem 'rails_12factor', '0.0.2'
 end
+
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
 
 # Added to fix issue in newer Ruby version requiring minitest. (https://github.com/rspec/rspec-rails/pull/772)
 gem 'minitest'
