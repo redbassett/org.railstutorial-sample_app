@@ -68,3 +68,5 @@ gem 'sprockets', '2.11.0'
 
 # Added to fix issue in newer Ruby version requiring minitest. (https://github.com/rspec/rspec-rails/pull/772)
 gem 'minitest'
+
+gem 'bcrypt-ruby', '3.1.2'
