@@ -93,7 +93,7 @@ describe User do
     before { @user.save }
     let(:found_user) { User.find_by(email: @user.email) }
     
-    describe "woth valid password" do
+    describe "with valid password" do
       it { should eq found_user.authenticate(@user.password) }
     end
     
